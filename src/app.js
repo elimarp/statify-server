@@ -1,7 +1,7 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
-import 'dotenv';
+import 'dotenv/config';
 import routes from './routes';
 import authentication from './config/spotifyAuth';
 import mongodb from './database/mongodb';
@@ -24,10 +24,9 @@ class App {
         }
     }
 
-    // TODO: app.use(cors({ origin: 'https://...' }));
     middlewares() {
         this.server.use(express.json());
-        this.server.use(cors());
+        this.server.use(cors({ origin: process.env.ORIGIN }));
         this.server.use(bodyParser.urlencoded({ extended: true }));
     }
 
