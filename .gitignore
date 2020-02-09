@@ -6,7 +6,6 @@ src/config/database.js
 src/config/Redis.js
 src/database/mysql.js
 src/secretRoutes.js
-Procfile
 notes.txt
 yarn-error.log
 dist/
