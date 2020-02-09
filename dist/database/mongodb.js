@@ -69,7 +69,7 @@ class MongoDB {
 
         const INTERVAL = 86400000 - 300000; //24h - 5m
 
-        // await migrateData();
+        await migrateData();
         setInterval(() => {
             migrateData();
         }, INTERVAL);
