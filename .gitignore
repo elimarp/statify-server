@@ -8,4 +8,3 @@ src/database/mysql.js
 src/secretRoutes.js
 notes.txt
 yarn-error.log
-dist/
