@@ -9,3 +9,4 @@ src/secretRoutes.js
 Procfile
 notes.txt
 yarn-error.log
+dist/
