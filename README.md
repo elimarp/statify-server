@@ -9,9 +9,9 @@ Desculpe-nos. O site ainda não está disponível publicamente.
 Você mesmo pode obter os dados da API da forma que quiser!  
 **Base URL:** ``` https://elimarp-statify.herokuapp.com```
 
-## Endpoints
+## Referências
 
-### ARTISTAS:
+### ARTISTAS
 Adquira informações dos artistas.
 
 #### Objeto:
@@ -64,7 +64,7 @@ Lista de atributos que, respectivamente, definirão a ordem (decrescente) dos da
  - **```genres``` (*Comma-Separated Values*) :**  
  Filtra os dados para somente artistas que incluem esse(s) gênero(s) musicais.
  
- ### Detalhes do Artista:
+ ### Detalhes do Artista
  ```/artists/:id``` - Resgatar informações de um determinado artista através de seu ID no Spotify.
  
  **NOTA:** O ID de um artista pode ser encontrado através da interface [Open Spotify](https://open.spotify.com/), acessando o perfil do artista.
