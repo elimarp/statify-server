@@ -2,7 +2,7 @@
 Servidor NodeJS do projeto Statify.
 
 ## Statify
-Obtenha estatísticas de artistas baseados em dados do maior streaming de música da atualidade: [Spotify®](https://www.spotify.com/).  
+Obtenha estatísticas de artistas baseadas em dados do maior serviço de streaming de músicas da atualidade: [Spotify®](https://www.spotify.com/).  
 Desculpe-nos. O site ainda não está disponível publicamente.
 
 # API (Tente você mesmo)
@@ -12,7 +12,7 @@ Você mesmo pode obter os dados da API da forma que quiser!
 ## Endpoints
 
 ### ARTISTAS:
-```/artists``` - Obtenha os dados dos artistas do Spotify.
+Adquira informações dos artistas.
 
 #### Objeto:
 ```
@@ -45,6 +45,9 @@ Você mesmo pode obter os dados da API da forma que quiser!
 }
 ```
 
+### Listagem de Artistas
+```/artists``` - Obtenha listas voláteis de artistas.
+
 #### Query Params:
 - **```limit``` (*Integer*) :**  
 Número máximo de dados retornados pela API. Defina ```0``` para ilimitar a busca. **Valor padrão:** ```50```.
@@ -61,7 +64,7 @@ Lista de atributos que, respectivamente, definirão a ordem (decrescente) dos da
  - **```genres``` (*Comma-Separated Values*) :**  
  Filtra os dados para somente artistas que incluem esse(s) gênero(s) musicais.
  
- ### DETALHES DO ARTISTA:
+ ### Detalhes do Artista:
  ```/artists/:id``` - Resgatar informações de um determinado artista através de seu ID no Spotify.
  
  **NOTA:** O ID de um artista pode ser encontrado através da interface [Open Spotify](https://open.spotify.com/), acessando o perfil do artista.
